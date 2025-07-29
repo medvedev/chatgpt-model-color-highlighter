@@ -21,6 +21,11 @@ function applyColorLogic(config) {
       const text = span.textContent.trim();
       const color = config.spanColorMap[text];
       div.style.setProperty("background-color", color || "", "important");
+      div.style.setProperty("border-radius", "5px", "important");
+      div.style.setProperty("box-sizing", "border-box", "important");
+      div.style.setProperty("width", "calc(100% + 20px)", "important");
+      div.style.setProperty("padding-left", "10px", "important");
+      div.style.setProperty("padding-right", "10px", "important");
     };
 
     updateColor();
