@@ -3,7 +3,7 @@
   "name": "GPT model highlighter",
   "version": "1.0",
   "description": "Highlight current model in ChatGPT UI",
-  "permissions": ["scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://chatgpt.com/*"],
