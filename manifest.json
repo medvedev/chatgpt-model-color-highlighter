@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "GPT model highlighter",
-  "version": "1.0",
-  "description": "Highlight current model in ChatGPT UI",
-  "permissions": [],
+  "name": "GPT model colorizer",
+  "version": "0.1",
+  "description": "Add color to the currently selected GPT model in ChatGPT.",
   "content_scripts": [
     {
       "matches": ["https://chatgpt.com/*"],
-      "js": ["config.js", "content.js"],
+      "js": ["content.js"],
       "run_at": "document_idle"
     }
   ]
