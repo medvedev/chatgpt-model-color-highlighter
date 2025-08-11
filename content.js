@@ -2,10 +2,8 @@ const CONFIG = {
   requiredText: "ChatGPT",
   spanClass: "text-token-text-tertiary",
   spanColorMap: {
-    "4o": "#297433ff",
-    "o3": "#255672ff",
-    "o4-mini": "#84139bff",
-    "o4-mini-high": "#792626ff",
+    "5": "#297433ff",
+    "5 Thinking": "#882e2eff",
   },
 };
 
